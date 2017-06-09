@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>银泰百货</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8" />
+	<script src="jquery-2.1.0.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+
+<ul class="nav">
+<li>
+	<span class="one"><img src="images/nav_01.png"></span>
+	<span class="two">时尚名品</span>
+</li>
+<li>
+	<span class="one"><img src="images/nav_02.png"></span>
+	<span class="two">精品男装</span>
+</li>
+<li>
+	<span class="one"><img src="images/nav_03.png"></span>
+	<span class="two">时尚鞋靴</span>
+</li>
+<!--<li>
+	<span class="one"><img src="images/nav_04.png"></span>
+	<span class="two">女鞋</span>
+</li>
+<li>
+	<span class="one"><img src="images/nav_05.png"></span>
+	<span class="two">化妆品</span>
+</li>-->
+<li>
+	<span class="one"><img src="images/nav_06.png"></span>
+	<span class="two">返回顶部</span>
+</li>
+</ul>
+
+<div class="header_top">
+<ul class="h_t_ul_a">
+	<li style="background:url(images/header_a_a.png) no-repeat left">银泰首页&nbsp; |</li>
+	<li style="width:60px;background:url(images/header_a_c.png) no-repeat left">微信&nbsp; &nbsp;&nbsp;|</li>
+	<li style="background:url(images/header_a_e.png) no-repeat left"><a href="#">手机银泰</a></li>
+</ul>
+<ul>
+<li style="width:132px;padding-left:4px;"">Hi，欢迎来到银泰网！</li>
+<li style="width:27px;padding-left:4px;"><a href="#">登录</a></li>
+<li style="width:50px;padding-left:13px;"><a href="#">注册 &nbsp; |</a></li>
+<li style="width:68px;padding-left:4px;"><a href="#">我的订单 &nbsp; |</a></li>
+<li id="yintai" style="width:78px;padding-left:10px;"><a href="#">我的银泰 &nbsp; |</a></li>
+<li style="width:60px;padding-left:1px;"><a href="#">银泰卡 &nbsp; |</a></li>
+<li style="width:56px;padding-left:4px;"><a href="#">帮助中心</a></li>
+</ul>
+<div class="li_b">
+	<p style="background:url(images/header_a_c.png) no-repeat left">微信</p>
+	<img src="images/li_b.png/">
+</div>
+<div class="li_c">
+	<p style="background:url(images/header_a_e.png) no-repeat left">手机银泰</p>
+	<img src="images/li_c.png/">
+</div>
+<ul class="li_d">
+	<li style="color: #E5004F;">我的银泰</li>
+	<li><a href="#">我的收藏</a></li><hr>
+	<li><a href="#">我的余额</a></li><hr>
+	<li><a href="#">我的银元</a></li><hr>
+	<li><a href="#">我的银泰卡</a></li><hr>
+	<li><a href="#">我的优惠券</a></li><hr>
+	<li><a href="#">我的积分</a></li>
+</ul>
+
+</div>
+<div class="head_banner">
+<a href="#"></a>
+</div>
+<div class="head_main">
+<div style="background:url(images/h_m_left_a.gif);width:215px;height:76px;position:absolute;left:88px;top:20px;"><a href="#"></a></div>
+<div style="height:65px;border-left:1px solid #DCDCDC;position:absolute;left:313px;top:27px;"></div>
+<div style="background:url(images/h_m_left_b.gif);width:120px;height:80px;position:absolute;left:326px;top:20px;"></div>
+<div class="h_m_left_b"><a href="#"></a></div>
+
+<div class="h_m_search">
+	<div class="h_m_search_box">
+		<input type="text" name="" placeholder="大家正在搜：全球美妆 热力清仓 尖叫冰点价38元起">
+		<button><img src="images/h_m_search_box.png" style="margin-left: -2px;margin-top: -2px;"></button>
+	</div>
+	<ul>
+		<li style="width:70px">BURBURRY</li>
+		<li style="width:34px">口红</li>
+		<li style="width:35px">海贝</li>
+		<li style="width:48px">polo衫</li>
+		<li style="width:38px">万斯</li>
+		<li style="width:48px">拉杆箱</li>
+		<li style="width:58px">玖熙女鞋</li>
+		<li style="width:61px">博洋家纺</li>
+		<li style="width:48px">曼妮芬</li>
+		<li style="width:48px">内裤</li>
+	</ul>
+</div>
+<div class="shopping_cart"><p style="margin-left: 48px;color:white;">购物袋 <span style="color:red">0</span> 件</p>
+</div>
+</div>
+<div class="head_menu">
+	<ul class="h_m_nav_a">
+		<li style="font-size: 18px;line-height:46px;text-indent:65px;background:#222;">全部分类<span><img src=""></span></li>
+		<li id="nav_a">名品 | <a href="#">春夏新装</a></li><hr/>
+		<li id="nav_b">女装 | <a href="#">夏季上新</a></li><hr/>
+		<li>男装 | <a href="#">型男专场</a></li><hr/>
+		<li>鞋靴 | <a href="#">时尚鞋品</a></li><hr/>
+		<li>美妆 | <a href="#">防晒隔离</a></li><hr/>
+		<li>箱包 | <a href="#">女神单肩</a></li><hr/>
+		<li>运动 | <a href="#">运动鞋服</a></li><hr/>
+		<li>配饰 | <a href="#">黄金饰品</a></li><hr/>
+		<li>婴童 | <a href="#">母婴</a></li><hr/>
+		<li>内衣 | <a href="#">舒适内衣</a></li>
+	</ul>
+	<div class="h_m_nav_b" id="h_m_nav_c">
+		<ul class="b_a">
+			<li style="font-size: 14px;"><a href="#">男装</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">T恤</a><span><a href="#">POLO衫</a></span><a href="#">裤装</a><a href="#">衬衫</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">女装</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">T恤</a><span><a href="#">衬衫</a></span><a href="#">裤装</a><a href="#">裙装</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">鞋靴</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">女士单鞋</a><span><a href="#">男鞋</a></span><hr/></li>
+			<li style="font-size: 14px;"><a href="#">女包</a></li>
+			<li><span><a href="#">新品</a></span><span><a href="#">手提挎包</a></span><a href="#">单肩包</a><a href="#">钱夹</a><a href="#">手拿包</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">男包</a></li>
+			<li><span><a href="#">新品</a></span><span><a href="#">钱包</a></span><a href="#">单肩包</a><a href="#">手拿包</a><a href="#">手提包</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">配饰</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">围巾</a><a href="#">帽子</a><span><a href="#">腰带</a></span><hr/></li>
+			<li style="font-size: 14px;"><a href="#">婴童</a></li>
+			<li><span><a href="#">童装</a></span><a href="#">童鞋</a><a href="#">婴童配饰</a></li>
+		</ul>
+		<ul class="b_b">
+			<li style="font-size: 14px;"><a href="#">品牌</a><hr/></li>
+			<li><a href="#">BURBURRY</a></li>
+			<li><a href="#">FERRAGAMO</a></li>
+			<li><a href="#">GUCCI COACH</a></li>
+			<li><a href="#">ARMANI JEANS</a></li>
+			<li><a href="#">DIESEL VERSACE</a></li>
+			<li><a href="#">MAX&CO</a></li>
+			<li><a href="#">FRED PERRY</a></li>
+			<li><a href="#">CELINE SpoRTMAX</a></li>
+			<li><a href="#">MAX MARA</a></li>
+			<li><a href="#">MICHAEL KORS</a></li>
+			<li><a href="#">ZEGNA FENDI</a></li>
+			<li><a href="#">EMPORIO ARMANI</a></li>
+			<li><a href="#">BALLY</a></li>
+			<li><a href="#">ALEXANDER MCQUEN</a></li>
+		</ul>
+		
+	</div>
+	<!--<div class="h_m_nav_b" id="h_m_nav_d">
+		<ul class="b_a" style="top:90px">
+			<li style="font-size: 14px;"><a href="#">男装</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">T恤</a><span><a href="#">POLO衫</a></span><a href="#">裤装</a><a href="#">衬衫</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">女装</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">T恤</a><span><a href="#">衬衫</a></span><a href="#">裤装</a><a href="#">裙装</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">鞋靴</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">女士单鞋</a><span><a href="#">男鞋</a></span><hr/></li>
+			<li style="font-size: 14px;"><a href="#">女包</a></li>
+			<li><span><a href="#">新品</a></span><span><a href="#">手提挎包</a></span><a href="#">单肩包</a><a href="#">钱夹</a><a href="#">手拿包</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">男包</a></li>
+			<li><span><a href="#">新品</a></span><span><a href="#">钱包</a></span><a href="#">单肩包</a><a href="#">手拿包</a><a href="#">手提包</a><hr/></li>
+			<li style="font-size: 14px;"><a href="#">配饰</a></li>
+			<li><span><a href="#">新品</a></span><a href="#">围巾</a><a href="#">帽子</a><span><a href="#">腰带</a></span><hr/></li>
+			<li style="font-size: 14px;"><a href="#">婴童</a></li>
+			<li><span><a href="#">童装</a></span><a href="#">童鞋</a><a href="#">婴童配饰</a></li>
+		</ul>
+		<ul class="b_b" style="top:90px">
+			<li style="font-size: 14px;"><a href="#">品牌</a><hr/></li>
+			<li><a href="#">BURBURRY</a></li>
+			<li><a href="#">FERRAGAMO</a></li>
+			<li><a href="#">GUCCI COACH</a></li>
+			<li><a href="#">ARMANI JEANS</a></li>
+			<li><a href="#">DIESEL VERSACE</a></li>
+			<li><a href="#">MAX&CO</a></li>
+			<li><a href="#">FRED PERRY</a></li>
+			<li><a href="#">CELINE SpoRTMAX</a></li>
+			<li><a href="#">MAX MARA</a></li>
+			<li><a href="#">MICHAEL KORS</a></li>
+			<li><a href="#">ZEGNA FENDI</a></li>
+			<li><a href="#">EMPORIO ARMANI</a></li>
+			<li><a href="#">BALLY</a></li>
+			<li><a href="#">ALEXANDER MCQUEN</a></li>
+		</ul>
+		
+	</div>-->
+	<ul class="h_m_nav_c">
+		<li><a href="#">名品馆</a></li>
+		<li><a href="#">特卖</a></li>
+		<li><a href="#">海淘馆</a></li>
+		<li><a href="#">会员专享</a></li>
+	</ul>
+	<div class="head_main_pic">
+		<img src="images/head_main_pic.jpg" />
+	</div>
+	<div class="hot"><img src="images/hot.gif"></div>
+	<p><a href="#">积分商城</a> &nbsp;| &nbsp;<a href="#">全部品牌</a></p>
+</div>
+<div id="head_content">
+	<ul class="h_c_ua">
+		<li style="display: block;"><img src="images/head_content_bac_a.jpg"></li>
+		<li><img src="images/head_content_bac_b.jpg"></li>
+		<li><img src="images/head_content_bac_c.jpg"></li>
+		<li><img src="images/head_content_bac_d.jpg"></li>
+		<li><img src="images/head_content_bac_e.jpg"></li>
+	</ul>
+	<ul class="h_c_ub">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<div class="on left"><</div>
+	<div class="on right">></div>
+	<!--<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>-->
+</div>
+<!-- <nav>
+<div>顶端</div>
+</nav> -->
+<div class="head_content_a">
+	<ul class="head_content_a_ul">
+		<li><a href="#">超值特卖</a></li>
+		<li><a href="#">手机专享</a></li>
+		<li><a href="#">品牌活动</a></li>
+	</ul>
+
+	<div class="h_c_box_a" style="display: none;">
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_a_1.jpg"></a>
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_a_2.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_a_3.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_a_4.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+				
+		
+	</div>
+	<div class="h_c_box_a">
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_b_1.jpg"></a>
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_b_2.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_b_3.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_b_4.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+				
+		
+	</div>
+	<div class="h_c_box_a"  style="display: none;">
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_c_1.jpg"></a>
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_c_2.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_c_3.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>	
+			<div class="head_content_a_a">
+				<a href="#"><img src="images/head_main_c_4.jpg"></a>
+				
+				<div class="border_left_a"></div>
+				<div class="border_top_a"></div>
+				<div class="border_right_a"></div>
+				<div class="border_bottom_a"></div>
+			</div>
+				
+		
+	</div>
+	<div class="image"><a href="#"><img src="images/head_content_a.jpg"</a></div>
+</div>
+<div class="head_content_b"><a href="#"><img src="images/head_content_b.jpg"</a></div>
+<div class="content_a">
+	<p>银泰百货<span style="color:red">商场同款</span></p>
+	<p style="color:grey;position:relative;left:268px;top:-32px;">|&nbsp;SPECIAL |&nbsp;COUNTER</p>
+	<div class="box1">
+	<div class="left_pic"><a href=""><img src="images/left_pic.jpg"></a></div>
+	<div class="right_con">
+	<ul class="a_nav">
+	<li>热门品牌</li>
+	<li>本周推荐</li>
+	</ul>
+	<hr>
+	 <div class="right_main_b">
+	<a href="#"><img src="images/02.jpg"></a>
+	<a href="#"><img src="images/03.jpg"></a>
+	<a href="#"><img src="images/04.jpg"></a>
+	<a href="#"><img src="images/05.jpg"></a>
+	<a href="#"><img src="images/06.jpg"></a>
+	<a href="#"><img src="images/07.jpg"></a>
+	</div> 
+	<div class="right_main_b" style="display: none;">
+	<div class="right_b_main_box">
+		<a href="#"><img src="images/08.jpg"></a>
+	<div class="right_main_b_word">
+	<a href="#" style="margin-left:8px;color:black;">八本船bf风蝙蝠袖字母印花宽松短</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;89</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;248</p>
+	</div>
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	<div class="right_b_main_box"><a href="#"><img src="images/09.jpg"></a>
+
+	<div class="right_main_b_word" style="">
+	<a href="#" style="margin-left:8px;color:black;">BOY LONDONBOYT恤</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;590</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;590</p>
+	</div>
+	
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	<div class="right_b_main_box"><a href="#"><img src="images/10.jpg"></a>
+	<div class="right_main_b_word" style="">
+	<a href="#" style="margin-left:8px;color:black;">（自营）耐克NIKE F.C.FOIL男子T</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;189</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;249</p>
+	</div>
+	
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	<div class="right_b_main_box"><a href="#"><img src="images/11.jpg"></a>
+
+	<div class="right_main_b_word" style="">
+	<a href="#" style="margin-left:8px;color:black;">TUMI途明男士迷彩休闲万向轮旅行</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;5104</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;6380</p>
+	</div>
+
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	<div class="right_b_main_box"><a href="#"><img src="images/12.jpg"></a>
+
+	<div class="right_main_b_word" style="">
+	<a href="#" style="margin-left:8px;color:black;">DILANSI狄兰丝女士真丝家居服吊</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;425</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;708</p>
+	</div>
+	
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	<div class="right_b_main_box"><a href="#"><img src="images/13.jpg"></a>
+
+	<div class="right_main_b_word" style="">
+	<a href="#" style="margin-left:8px;color:black;">hcw（卉川屋）长裤</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;425</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;429</p>
+	</div>
+	
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	<div class="right_b_main_box"><a href="#"><img src="images/14.jpg"></a>
+
+	<div class="right_main_b_word" style="">
+	<a href="#" style="margin-left:8px;color:black;">VAGEDON菲格登特卖频道 后中空</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;799</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;2208</p>
+	</div>
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	<div class="right_b_main_box"><a href="#"><img src="images/15.jpg"></a>
+
+	<div class="right_main_b_word" style="">
+	<a href="#" style="margin-left:8px;color:black;">GUERLAIN娇兰娇兰美妆秘籍套装</a><br/>
+	<p style="color:red;letter-spacing:0px;float:left;font-size:5px;margin-left:11px;margin-top:5px;">&yen;810</p><p style="color:#C0C0C0;float:right;font-size: 5px;line-height:0px;letter-spacing:0px;margin-right:5px;margin-top:13px;text-decoration:line-through;">参考价：&yen;810</p>
+	</div>
+	
+	<div class="border_left"></div>
+	<div class="border_top"></div>
+	<div class="border_right"></div>
+	<div class="border_bottom"></div>
+	</div>
+	</div>
+	</div>
+	</div>
+</div>	
+
+<div class="content_b" id="aaaa">
+	<p>时尚名品</p>
+	<p style="color:grey;position:relative;left:139px;top:-32px;">|&nbsp;LUXURY |&nbsp;GOODS</p>
+	<div class="box2">
+	<div class="content_b_a">
+	
+	<ul class="content_b_a_nav">
+	<li>针织衫</li>
+	<li>外套</li>
+	<li>裙装</li>
+	<li>围巾</li>
+	<li>腰带</li>
+	<li>女鞋</li>
+	<li>女包</li>
+	<li>男包</li>
+	<li>钱包</li>
+	<li>男鞋</li>
+	<li>衬衫</li>
+	<li>双肩包</li>
+	</ul>
+	<hr>
+	<div class="content_b_a_navv">
+	<div class="b_a_navv_nav">
+	<img src="images/b_a_navv_nav_a.jpg">
+	<img src="images/b_a_navv_nav_b.jpg">
+	<img src="images/b_a_navv_nav_c.jpg">
+	<img src="images/b_a_navv_nav_d.jpg">
+
+	</div>
+	</div>
+	</div>
+	<div class="content_b_b">
+	<ul>
+	<li><img src="images/16.jpg"></li>
+	<li><img src="images/17.jpg"></li>
+	</ul>
+	<div class="b_b_left"><</div>
+	<div class="b_b_right">></div>
+	</div>
+	<div class="content_b_c">
+	<div class="b_c_box">
+
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/18.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/19.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/20.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/21.jpg"></div>
+	</div>
+	</div>
+</div>	
+
+<div class="content_b content_c">
+	<p>精品男装</p>
+	<p style="color:grey;position:relative;left:139px;top:-32px;">|&nbsp;MENS |&nbsp;BOUTIQUE</p>
+	<div class="box2">
+	<div class="content_b_a">
+	
+	<ul class="content_b_a_nav">
+	<li>长袖衬衫</li>
+	<li>长袖T恤</li>
+	<li>羽绒服</li>
+	<li>卫衣</li>
+	<li>针织衫</li>
+	<li>牛仔 </li>
+	<li>夹克/外套</li>
+	<li>牛仔衫</li>
+	<li>休闲裤</li>
+	<li>美国马球</li>
+	<li>viishow</li>
+	<li>俞兆林</li>
+	</ul>
+	<hr>
+	<div class="content_b_a_navv">
+	<div class="b_a_navv_nav">
+	<img src="images/c_a_navv_nav_a.jpg">
+	<img src="images/c_a_navv_nav_b.jpg">
+	<img src="images/c_a_navv_nav_c.jpg">
+	<img src="images/c_a_navv_nav_d.jpg">
+
+	</div>
+	</div>
+	</div>
+	<div class="content_b_b">
+	<a href="#"><img src="images/content_c_b_a.jpg" /></a>
+	</div>
+	<div class="content_b_c">
+	<div class="b_c_box">
+
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/content_c_b_b.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/content_c_b_c.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/content_c_b_d.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/content_c_b_e.jpg"></div>
+	</div>
+	</div>
+</div>	
+
+<div class="content_b content_d">
+	<p>时尚鞋靴</p>
+	<p style="color:grey;position:relative;left:139px;top:-32px;">|&nbsp;FASHION |&nbsp;FOOTWEAR</p>
+	<div class="box2">
+	<div class="content_b_a">
+	
+	<ul class="content_b_a_nav">
+	<li>春季上新</li>
+	<li>男士单鞋</li>
+	<li>女士单鞋</li>
+	<li>平底鞋</li>
+	<li>坡跟鞋</li>
+	<li>乐福鞋</li>
+	<li>豆豆鞋</li>
+	<li>休闲鞋</li>
+	<li>正装鞋</li>
+	<li>帆布鞋</li>
+	<li>鱼嘴鞋</li>
+	<li>高跟鞋</li>
+	</ul>
+	<hr>
+	<div class="content_b_a_navv">
+	<div class="b_a_navv_nav">
+	<img src="images/b_a_navv_nav_a.jpg">
+	<img src="images/b_a_navv_nav_b.jpg">
+	<img src="images/b_a_navv_nav_c.jpg">
+	<img src="images/b_a_navv_nav_d.jpg">
+
+	</div>
+	</div>
+	</div>
+	<div class="content_b_b">
+	<ul>
+	<li><img src="images/content_d_b_a.jpg"></li>
+	<li><img src="images/content_d_b_b.jpg"></li>
+	</ul>
+	<div class="b_b_left"><</div>
+	<div class="b_b_right">></div>
+	</div>
+	<div class="content_b_c">
+	<div class="b_c_box">
+
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/b_c_box_a.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/b_c_box_b.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/b_c_box_c.jpg"></div>
+	<div class="b_c_box">
+	
+	<div class="border_left2"></div>
+	<div class="border_top2"></div>
+	<div class="border_right2"></div>
+	<div class="border_bottom2"></div>
+
+	<img src="images/b_c_box_d.jpg"></div>
+	</div>
+	</div>
+</div>	
+<!--<div class="footer_wrap">
+	<div class="wrap_a"><img src="images/wrap_a.jpg"></div>
+</div>-->
+
+<footer>
+<a href="#">关于银泰&nbsp; |&nbsp;</a>
+<a href="#">帮助中心 &nbsp;|&nbsp;</a>
+<a href="#">退换货政策 &nbsp;|&nbsp;</a>
+<a href="#">网站地图 &nbsp;|&nbsp;</a>
+<a href="#">代理合作 &nbsp;|&nbsp;</a>
+<a href="#">品牌招商 &nbsp;|&nbsp;</a>
+<a href="#">商务合作 &nbsp;|&nbsp;</a>
+<a href="#">网站联盟 &nbsp;|&nbsp;</a>
+<a href="#">联系我们 &nbsp;|&nbsp;</a>
+<a href="#">加入银泰 &nbsp;|&nbsp;</a>
+<a href="#">版权声明 &nbsp;|&nbsp;</a>
+<a href="#">法律声明 &nbsp;|&nbsp;</a>
+<p style="margin-top:32px">浙ICP备 10200233号 &nbsp;&nbsp; 京公网安备110105019085 &nbsp;&nbsp;增值电信业务经营许可证： &nbsp;浙B2-20110005</p>
+<p>Yintai &copy; 2016,银泰电子商务有限公司 </p>
+<div class="footer_bottom">
+	<img src="images/footer_a.png" />
+	<img style="position: relative;top: 3px;" src="images/footer_b.gif" />
+</div>
+</footer>
+</body>
+</html>
